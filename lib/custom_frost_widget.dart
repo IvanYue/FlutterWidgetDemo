@@ -37,7 +37,7 @@ class _FrostClassWidgetState extends State<FrostClassWidget> {
                     child: Center(
                       child: Text(
                           '毛玻璃',
-                        style: Theme.of(context).textTheme.bodyText1,
+                        style: Theme.of(context).textTheme.body1,
                       ),
                     ),
                   ),

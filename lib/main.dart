@@ -7,7 +7,7 @@ import 'keep_alive_demo.dart';
 import 'custom_search_widget.dart';
 import 'custom_wrap_widget.dart';
 import 'sys_expansion_tile_demo.dart';
-
+import 'sys_expansionList_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     {'title':'搜索条','widget':CustomSearchBarWidget()},
     {'title':'简单流式布局','widget':CustomWrapDemo()},
     {'title':'系统自带开合控件','widget':ExpansionTileDemo()},
-    {'title':'系统自带开合控件列表','widget':''},
+    {'title':'系统自带开合控件列表','widget':ExpansionListDemo()},
     {'title':'贝塞尔曲线','widget':''},
     {'title':'闪屏','widget':''},
     {'title':'右滑返回','widget':''},

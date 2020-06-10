@@ -16,7 +16,7 @@ class _ExpansionDemoState extends State<ExpansionTileDemo> {
           color: Colors.lightBlue,
           child: ExpansionTile(
             title: Text('标题'),
-            subtitle: Text('副标题'),
+            trailing: Text('副标题'),
             leading: Icon(Icons.access_time),
             backgroundColor: Colors.pink,
             // trailing: Icon(Icons.arrow_drop_down),//右侧的箭头，可以不用替换
