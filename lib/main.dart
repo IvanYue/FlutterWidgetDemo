@@ -8,8 +8,19 @@ import 'custom_search_widget.dart';
 import 'custom_wrap_widget.dart';
 import 'sys_expansion_tile_demo.dart';
 import 'sys_expansionList_demo.dart';
+<<<<<<< HEAD
+=======
+import 'custom_beizer_demo.dart';
+import 'custom_splashscreen.dart';
+import 'custom_right_back.dart';
+import 'sys_tool_tip_demo.dart';
+import 'drop_widget_demo.dart';
+
+
+>>>>>>> 378ce75ff907411e3463d0dc5d32aed35634a85e
 
 void main() => runApp(MyApp());
+
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -43,11 +54,19 @@ class _MyHomePageState extends State<MyHomePage> {
     {'title':'简单流式布局','widget':CustomWrapDemo()},
     {'title':'系统自带开合控件','widget':ExpansionTileDemo()},
     {'title':'系统自带开合控件列表','widget':ExpansionListDemo()},
+<<<<<<< HEAD
     {'title':'贝塞尔曲线','widget':''},
     {'title':'闪屏','widget':''},
     {'title':'右滑返回','widget':''},
     {'title':'轻量级提示','widget':''},
     {'title':'拖动效果','widget':''},
+=======
+    {'title':'贝塞尔曲线','widget':CustomBeizerDemo()},
+    {'title':'闪屏','widget':CustomSplashScreen()},
+    {'title':'右滑返回','widget':CustomRightBackDemo()},
+    {'title':'轻量级提示','widget':ToolTipDemo()},
+    {'title':'拖动效果','widget':DraggableWidgetDemo()},
+>>>>>>> 378ce75ff907411e3463d0dc5d32aed35634a85e
   ];
 
   @override
@@ -66,8 +85,8 @@ class _MyHomePageState extends State<MyHomePage> {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (BuildContext context){
-                    return info['widget'];
-                  }
+                      return info['widget'];
+                    }
                   )
               );
             },
